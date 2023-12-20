@@ -7,6 +7,7 @@ import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 import { LanguageProvider } from "@/context/language-context";
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,7 +35,7 @@ export default function RootLayout({
               <Header />
               {children}
               <Footer />
-
+              <Analytics />
               <Toaster position="top-right" />
               <ThemeSwitch />
             </ActiveSectionContextProvider>

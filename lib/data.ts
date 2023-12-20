@@ -9,6 +9,8 @@ import marketplace from "@/public/images/marketplace.jpg";
 import undangan_digital from "@/public/images/undangan digital.png";
 import car_rentalv2 from "@/public/images/car-rental-v2.png";
 import topupgame from "@/public/images/topupgame.png";
+import landingpage from "@/public/images/landing page property.png";
+import onlineshop from "@/public/images/hefa store.png";
 
 export const links = [
   {
@@ -136,6 +138,22 @@ export const projectsData = [
     tags: ["Next.js", "Typescript", "Express Js", "Mongo DB", "CSS"],
     imageUrl: topupgame,
     url: "https://topupgame-pearl.vercel.app/",
+  },
+  {
+    title: "Furniture Landing Page",
+    description:
+      "The personal project furniture landing page is a visually appealing website showcasing a diverse range of furniture products.",
+    tags: ["HTML", "CSS", "Javascript", "Tailwind"],
+    imageUrl: landingpage,
+    url: "https://amienulrana.github.io/companyprofile",
+  },
+  {
+    title: "Online Shop",
+    description:
+      "online shop personal website as an exercise in creating a website using the latest bootstrap",
+    tags: ["HTML", "CSS", "Javascript", "Bootstrap"],
+    imageUrl: onlineshop,
+    url: "https://amienulrana.github.io/hefa-store/",
   },
 ] as const;
 
