@@ -93,7 +93,7 @@ export const projectsData = [
       "This application is the result of the transformation of the 3 website menus above (learning, community, enterprise), all the features on the website are also in this application",
     tags: ["React Native", "Expo", "Javasciprt", "Css"],
     imageUrl: aeduapp,
-    url: "https://learning.aedu.id",
+    url: "https://expo.dev/accounts/amienulrana/projects/aedu-plus/builds/7da0cdd9-400e-43c2-b8d6-cebb65aa553b",
   },
   {
     title: "Creo Defi",
