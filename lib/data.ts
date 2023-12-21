@@ -11,6 +11,9 @@ import car_rentalv2 from "@/public/images/car-rental-v2.png";
 import topupgame from "@/public/images/topupgame.png";
 import landingpage from "@/public/images/landing page property.png";
 import onlineshop from "@/public/images/hefa store.png";
+import netflix from "@/public/images/netflix.png";
+import movieapp from "@/public/images/movie-app.png";
+import aeduapp from "@/public/images/mobile-aedu.png";
 
 export const links = [
   {
@@ -85,6 +88,14 @@ export const projectsData = [
     url: "https://learning.aedu.id",
   },
   {
+    title: "App aedu+",
+    description:
+      "This application is the result of the transformation of the 3 website menus above (learning, community, enterprise), all the features on the website are also in this application",
+    tags: ["React Native", "Expo", "Javasciprt", "Css"],
+    imageUrl: aeduapp,
+    url: "https://learning.aedu.id",
+  },
+  {
     title: "Creo Defi",
     description:
       "The dApp website offers staking, airdrop participation, token swapping, and an NFT builder for quick and versatile decentralized financial and non-fungible token activities.",
@@ -100,12 +111,34 @@ export const projectsData = [
     url: "https://creo-defi.vercel.app/",
   },
   {
+    title: "Movie App",
+    description:
+      "This app you can browse trending, upcoming and top rated movies, you can see the details of a movie and the cast person, and you can even search any movie you want.",
+    tags: [
+      "React Native",
+      "Javascript",
+      "Tailwind",
+      "Nativewind",
+      "TMDB"
+    ],
+    imageUrl: movieapp,
+    url: "https://expo.dev/accounts/amienulrana/projects/app-ui/builds/73b3a127-9092-431b-8de6-9368860f84e3",
+  },
+  {
     title: "HRIS Management",
     description:
       "The HRIS management website simplifies HR tasks, including payslip generation, attendance tracking, and leave management for efficient human resource operations.",
     tags: ["Vue 3", "Vuex", "Express Js", "Tailwind", "Mongo DB"],
     imageUrl: hris,
     url: "https://mufidahgroup.com/",
+  },
+  {
+    title: "Netflix Clone",
+    description:
+      "cloned netflix website with several features, namely, auth with github and google, watch videos, and like videos",
+    tags: ["Next.js", "Prisma", "Typescript", "Tailwind", "Mongo DB"],
+    imageUrl: netflix,
+    url: "https://movie-app-amienul.vercel.app",
   },
   {
     title: "Marketplace",
