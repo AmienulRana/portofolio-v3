@@ -110,7 +110,6 @@ export default function Intro() {
           href="/my_cv.pdf"
           download
           aria-label="download cv amienul rana"
-          role="document"
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />

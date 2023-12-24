@@ -67,7 +67,7 @@ export default function Header() {
       </nav>
       <div className="">
       <p className="fixed md:top-10 top-5 sm:hidden left-10">Amienul Rana</p>
-      <button aria-label="toggle language" className="fixed md:top-10 top-5 right-10" onClick={handleToggleLanguage}>{language}</button>
+      <button aria-label="EN" role="button" className="fixed md:top-10 top-5 right-10" onClick={handleToggleLanguage}>{language}</button>
 
       </div>
     </header>
