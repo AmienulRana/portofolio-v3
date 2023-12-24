@@ -2,19 +2,19 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import aedu from "@/public/images/aedu.png";
-import creo from "@/public/images/creo-defi.png";
-import hris from "@/public/images/hris.png";
-import marketplace from "@/public/images/marketplace.jpg";
-import undangan_digital from "@/public/images/undangan digital.png";
-import car_rentalv2 from "@/public/images/car-rental-v2.png";
-import topupgame from "@/public/images/topupgame.png";
-import landingpage from "@/public/images/landing page property.png";
-import onlineshop from "@/public/images/hefa store.png";
-import netflix from "@/public/images/netflix.png";
-import movieapp from "@/public/images/movie-app.png";
-import aeduapp from "@/public/images/mobile-aedu.png";
-import hotel from "@/public/images/hotel.png";
+import aedu from "@/public/images/aedu.webp";
+import creo from "@/public/images/creo-defi.webp";
+import hris from "@/public/images/hris.webp";
+import marketplace from "@/public/images/marketplace.webp";
+import undangan_digital from "@/public/images/undangan digital.webp";
+import car_rentalv2 from "@/public/images/car-rental-v2.webp";
+import topupgame from "@/public/images/topupgame.webp";
+import landingpage from "@/public/images/landing page property.webp";
+import onlineshop from "@/public/images/hefa store.webp";
+import netflix from "@/public/images/netflix.webp";
+import movieapp from "@/public/images/movie-app.webp";
+import aeduapp from "@/public/images/mobile-aedu.webp";
+import hotel from "@/public/images/hotel.webp";
 
 export const links = [
   {
@@ -179,7 +179,7 @@ export const projectsData = [
       "The digital invitation website allows quick guest check-ins through scanning, providing administrators with instant access to arrival information.",
     tags: ["React", "React router", "Express Js", "Mongo DB", "Reactstrap"],
     imageUrl: undangan_digital,
-    url: "",
+    url: "https://amienulrana.vercel.app/notfound",
   },
   {
     title: "Topup Game",

@@ -35,7 +35,7 @@ export default function Intro() {
           >
             
             <Image
-              src="https://gist.githubusercontent.com/arunprakashpj/48aa20057048b46c6f9ba9d114a8b76f/raw/69a9d496f651091a509ea8d9913c4aef5c419afb/Hi.gif"
+              src="/hello.webp"
               alt="Ricardo portrait"
               width="192"
               height="192"
@@ -109,6 +109,7 @@ export default function Intro() {
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/my_cv.pdf"
           download
+          aria-label="downloadn cv amienul rana"
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
@@ -118,6 +119,7 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/amienulrana/"
           target="_blank"
+          aria-label="Linkedin Amienul Rana"
         >
           <BsLinkedin />
         </a>
@@ -126,6 +128,8 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/AmienulRana"
           target="_blank"
+          aria-label="Gihtub Amienul Rana"
+
         >
           <FaGithubSquare />
         </a>
@@ -133,6 +137,8 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://wa.me/6285260298204?text=Hello Amienul"
           target="_blank"
+          aria-label="Whatsapp Amienul Rana"
+
         >
           <FaWhatsappSquare />
         </a>
