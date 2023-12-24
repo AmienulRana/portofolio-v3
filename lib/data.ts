@@ -14,6 +14,7 @@ import onlineshop from "@/public/images/hefa store.png";
 import netflix from "@/public/images/netflix.png";
 import movieapp from "@/public/images/movie-app.png";
 import aeduapp from "@/public/images/mobile-aedu.png";
+import hotel from "@/public/images/hotel.png";
 
 export const links = [
   {
@@ -109,6 +110,22 @@ export const projectsData = [
     ],
     imageUrl: creo,
     url: "https://creo-defi.vercel.app/",
+  },
+  {
+    title: "Nginep",
+    description:
+      "Explore the world with our hotel booking platform inspired by Airbnb! Easily book accommodation, manage personalized trips and more",
+    tags: [
+      "TypeScript",
+      "Next.js",
+      "Prisma",
+      "Next-auth",
+      "Mongo DB",
+      "Tailwind",
+      "Zustand",
+    ],
+    imageUrl: hotel,
+    url: "https://amienul-airbnb.vercel.app/",
   },
   {
     title: "Movie App",
