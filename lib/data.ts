@@ -125,7 +125,7 @@ export const projectsData = [
       "Zustand",
     ],
     imageUrl: hotel,
-    url: "https://amienul-airbnb.vercel.app/",
+    url: "https://amienul-nginep.vercel.app/",
   },
   {
     title: "Movie App",
