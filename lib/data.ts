@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import aedu from "@/public/images/aedu.webp";
+import aedu_gif from "@/public/images/aedu-gif.gif";
 import creo from "@/public/images/creo-defi.webp";
 import hris from "@/public/images/hris.webp";
 import marketplace from "@/public/images/marketplace.webp";
@@ -87,6 +88,7 @@ export const projectsData = [
     tags: ["Next.js 13", "Tailwind", "Typescript", "React Query"],
     imageUrl: aedu,
     url: "https://learning.aedu.id",
+    gif: aedu_gif
   },
   {
     title: "App aedu+",
@@ -119,7 +121,6 @@ export const projectsData = [
       "TypeScript",
       "Next.js",
       "Prisma",
-      "Next-auth",
       "Mongo DB",
       "Tailwind",
       "Zustand",

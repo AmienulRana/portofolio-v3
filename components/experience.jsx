@@ -12,6 +12,9 @@ import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
 import Link from "next/link";
 
+
+
+
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
   const { theme } = useTheme();
