@@ -16,6 +16,7 @@ import netflix from "@/public/images/netflix.webp";
 import movieapp from "@/public/images/movie-app.webp";
 import aeduapp from "@/public/images/mobile-aedu.webp";
 import hotel from "@/public/images/hotel.webp";
+import receipe from "@/public/images/receipe.png";
 
 export const links = [
   {
@@ -91,13 +92,21 @@ export const projectsData = [
     gif: aedu_gif
   },
   {
-    title: "App aedu+",
+    title: "Nginep",
     description:
-      "This application is the result of the transformation of the 3 website menus above (learning, community, enterprise), all the features on the website are also in this application",
-    tags: ["React Native", "Expo", "Javasciprt", "Css"],
-    imageUrl: aeduapp,
-    url: "https://expo.dev/accounts/amienulrana/projects/aedu-plus/builds/7da0cdd9-400e-43c2-b8d6-cebb65aa553b",
+      "Explore the world with our hotel booking platform inspired by Airbnb! Easily book accommodation, manage personalized trips and more",
+    tags: [
+      "TypeScript",
+      "Next.js",
+      "Prisma",
+      "Mongo DB",
+      "Tailwind",
+      "Zustand",
+    ],
+    imageUrl: hotel,
+    url: "https://amienul-nginep.vercel.app/",
   },
+ 
   {
     title: "Creo Defi",
     description:
@@ -114,20 +123,14 @@ export const projectsData = [
     url: "https://creo-defi.vercel.app/",
   },
   {
-    title: "Nginep",
+    title: "App aedu+",
     description:
-      "Explore the world with our hotel booking platform inspired by Airbnb! Easily book accommodation, manage personalized trips and more",
-    tags: [
-      "TypeScript",
-      "Next.js",
-      "Prisma",
-      "Mongo DB",
-      "Tailwind",
-      "Zustand",
-    ],
-    imageUrl: hotel,
-    url: "https://amienul-nginep.vercel.app/",
+      "This application is the result of the transformation of the 3 website menus above (learning, community, enterprise), all the features on the website are also in this application",
+    tags: ["React Native", "Expo", "Javasciprt", "Css"],
+    imageUrl: aeduapp,
+    url: "https://expo.dev/accounts/amienulrana/projects/aedu-plus/builds/c32d6b4f-b7d8-41ff-acb7-b6ebd2523479",
   },
+ 
   {
     title: "Movie App",
     description:
@@ -149,6 +152,20 @@ export const projectsData = [
     tags: ["Vue 3", "Vuex", "Express Js", "Tailwind", "Mongo DB"],
     imageUrl: hris,
     url: "https://mufidahgroup.com/",
+  },
+  {
+    title: "Recipe App",
+    description:
+      "From quick and easy weekday meals to impressive gourmet dishes, this app provides step-by-step instructions, ingredient lists, and stunning visuals to guide you through each culinary adventure. ",
+    tags: [
+      "React Native",
+      "Javascript",
+      "Tailwind",
+      "Nativewind",
+      "Themealdb"
+    ],
+    imageUrl: receipe,
+    url: "https://amienulrana.vercel.app/notfound",
   },
   {
     title: "Netflix Clone",
