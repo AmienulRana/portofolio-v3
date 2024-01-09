@@ -13,7 +13,7 @@ export default function Projects() {
   const {language} = useLanguageContext();
 
   return (
-    <section ref={ref} id="projects" className="scroll-mt-24 mb-28">
+    <section ref={ref} id="projects" className="scroll-mt-24 max-w-[1900px] mb-28">
       <SectionHeading>{TYPHOGRAPHY[language].MY_PROJECT}</SectionHeading>
       <div className="grid xl:grid-cols-3 gap-14 md:grid-cols-2 grid-cols-1">
         {projectsData.map((project, index) => (
