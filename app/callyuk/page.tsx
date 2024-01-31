@@ -1,14 +1,14 @@
-"use client"
+"use client";
 
 import { useEffect } from "react";
 
 export default function CallYuk() {
-
-    useEffect(() => {
-        setTimeout(() => {
-            window.location.href = 'https://a410-2001-448a-10c0-23ed-41c6-c476-fbab-6358.ngrok-free.app/'
-        }, 3000)
-    }, [])
+  useEffect(() => {
+    setTimeout(() => {
+      window.location.href =
+        "https://2438-2001-448a-10c0-36f1-dd80-3845-343b-d099.ngrok-free.app";
+    }, 3000);
+  }, []);
   return (
     <div className="w-full flex z-[999] flex-col items-center justify-center fixed top-0 left-0 min-h-screen bg-white">
       <h1 className="text-[36px] text-[#0060FF] font-bold">CallYuk</h1>
