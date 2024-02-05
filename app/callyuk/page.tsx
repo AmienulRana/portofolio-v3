@@ -6,7 +6,7 @@ export default function CallYuk() {
   useEffect(() => {
     setTimeout(() => {
       window.location.href =
-        "https://6a3b-2001-448a-10c0-36f1-b1fb-396a-a599-9d7e.ngrok-free.app";
+        "https://85f6-2001-448a-10c0-36f1-d8e6-66aa-1d36-6a61.ngrok-free.app";
     }, 3000);
   }, []);
   return (
