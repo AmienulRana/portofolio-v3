@@ -6,8 +6,8 @@ export default function CallYuk() {
   useEffect(() => {
     setTimeout(() => {
       window.location.href =
-        "https://7f70-2001-448a-10c1-3fe5-40bb-677a-7ac-cb55.ngrok-free.app";
-    }, 3000);
+        "https://f814-2001-448a-10cc-1513-34b9-2967-fed3-adcb.ngrok-free.app/";
+    }, 2000);
   }, []);
   return (
     <div className="w-full flex z-[999] flex-col items-center justify-center fixed top-0 left-0 min-h-screen bg-white">
